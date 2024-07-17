@@ -8,23 +8,24 @@ body {
 }
 
 .selection {
+  border: 1px dashed orange;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
   
 .button {
-  margin: 30px;
-  padding: 20px 50px;
+  width: 90vw;
+  height: 10vh;
+  margin: 30px 0;
   text-decoration: none;
-  color: white;
-  background-color: #007bff;
-  border: none;
-  border-radius: 36px;
+  color: black;
+  background-color: white;
+  border: 3px solid black;
   cursor: pointer;
   text-align: center;
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: orangered;
 }

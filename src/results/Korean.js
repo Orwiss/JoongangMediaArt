@@ -1,7 +1,13 @@
 import React from 'react'
 
 export default function Korean() {
+    const img = {
+        width: '100vw',
+        height: '100vh',
+        backgroundColor: 'bisque'
+    }
+
     return (
-        <div>Korean Food~</div>
+        <div style={img}></div>
     )
 }
